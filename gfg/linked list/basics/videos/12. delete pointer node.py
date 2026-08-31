@@ -33,7 +33,7 @@ if __name__=="__main__":
     main()
 
 '''
-delete node pointed to by `ptr` (no access to head).
+delete node pointed to by ptr (no access to head).
 trick: copy next node's data into ptr, then skip over next node.
 
 before:  10(n1) -> 20(n2) -> 30(n3) -> 40(n4) -> 50(n5)
@@ -48,5 +48,5 @@ step 3: ptr.next = temp.next (skip n4, n4 is now unreachable)
     10(n1) -> 20(n2) -> 40(n3) -------------> 50(n5)
                             ^ptr
 
-after:   10 -> 20 -> 40 -> 50   (n3 now holds old n4's data, n4 dropped)
+after:   10 -> 20 -> 40 -> 50 (n3 now holds old n4's data, n4 dropped)
 '''
