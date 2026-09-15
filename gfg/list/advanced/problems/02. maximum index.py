@@ -1,3 +1,11 @@
+'''
+the question says two pointer approach
+here two arrays, two pointers; i.e. each array has a pointer
+each array's pointer is to traverse that array
+
+this is what it means by two pointer approach
+another format of two pointer approach
+'''
 def maxIndexDiff(arr):
     n = len(arr)
     left = [0]*n 
