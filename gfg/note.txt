@@ -1,1 +1,1 @@
-this contains all the dsa questions from 'GeeksForGeeks' (paid)DSA course
+this contains all the dsa notes and questions from 'GeeksForGeeks'(paid)DSA course; topic wise
